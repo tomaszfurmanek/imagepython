@@ -1,6 +1,10 @@
 import cv2
 import os
 
+# opencv installed with 
+# conda install conda-forge::opencv
+
+
 def extract_one_frame_per_minute(video_path, output_folder):
     # Open the video file
     cap = cv2.VideoCapture(video_path)
